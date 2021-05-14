@@ -1,0 +1,412 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+	box-sizing: border-box;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../bg12.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	 background-size: 100% 500%;
+}
+ul{ 
+	float: right;
+	list-style-type: none;
+	margin-top: 75px;
+	margin-right: 10px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-top: 20px;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.title{
+	position:absolute;
+	top: 48%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+.title h2{
+	color: #000;
+	font-size: 70px;
+}
+.titlegal{
+	position:absolute;
+	top: 13%;
+	left: 24%;
+	transform: translate(-50%,-50%);
+}
+.titlegal h1{
+	color: #fff;
+	font-size: 30px;
+}
+.titlehd{
+	position: absolute;
+	color:#fff;
+	top: 5%;
+	left: 5%;
+}
+.button{
+	position:absolute;
+	top: 65%;
+	left: 48%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn1{
+		border: 1px solid #000;
+	padding: 10px 30px;
+	color: #000;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+.loginbtn{
+	position:absolute;
+	top: 75%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+	
+	padding: 10px 30px;
+	color: #000;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.loginbtn:hover{ 
+	background-color: DodgerBlue;
+	color: #fff;
+}
+.loginbtn1{
+	position:absolute;
+	top: 75%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	
+	padding: 10px 30px;
+	color: #000;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.loginbtn1:hover{
+	background-color: DodgerBlue;
+	color: #fff;
+}
+.cartbtn{
+	position:absolute;
+transform: translate(-50%,-50%);
+	
+	padding: 10px 30px;
+	color: #000;
+	text-decoration: none;
+	transition: 0.6s ease;
+	
+
+}
+.cartbtn:hover{
+	background-color: DodgerBlue;
+	color: #fff;
+}
+.lntext{
+	position: absolute;
+	top: 30%;
+	left: 47%;
+	color:#fff;
+}
+.sptext{
+	position: absolute;
+	top: 25%;
+	left: 46%;
+	color:#fff;
+}
+.lnemail{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.lnpasswd{
+	position:absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.email{
+	position:absolute;
+	top: 50%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.passwd{
+	position:absolute;
+	top: 60%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.repasswd{
+	position:absolute;
+	top: 60%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.fname{
+	position:absolute;
+	top: 40%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.lname{
+	position:absolute;
+	top: 40%;
+	left: 65%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.number{
+	position:absolute;
+	top: 50%;
+	left: 35%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.lnsp1{
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	width: 300%;
+
+}
+.sp{
+	position: absolute;
+	top:90%;
+	left: 35%;
+	color: #fff;
+}
+.body{
+	
+	position:absolute;
+	top: 85%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+.body1{
+	
+	position:absolute;
+	top:110%;
+	left: 40%;
+	color: #000;
+}
+.livtext{
+	
+	position:absolute;
+	top:140%;
+	left: 40%;
+	color: #000;
+}
+.kittext{
+	
+	position:absolute;
+	top:160%;
+	left: 40%;
+	color: #000;
+}
+.bedtext{
+	
+	position:absolute;
+	top:180%;
+	left: 40%;
+	color: #000;
+}
+.moretext{
+	
+	position:absolute;
+	top:200%;
+	left: 40%;
+	color: #000;
+}
+.liv{
+	position:absolute;
+	top: 125%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+.kit{
+	position:absolute;
+	top: 167%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+.bed{
+	position:absolute;
+	top: 209%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+
+
+.g1{
+	position:absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+}
+.g1:hover{
+	border: 6px solid #999;
+}
+.g2{
+	position:absolute;
+	top: 50%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+}
+.g2:hover{
+	border: 6px solid #999;
+}
+.g3{
+	position:absolute;
+	top: 100%;
+	left: 60%;
+	transform: translate(-50%,-50%);
+}
+.g3:hover{
+	border: 6px solid #999;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.g11 {
+	position:absolute;
+  left: 10%;
+  width: 180px;
+  top: 40%;
+}
+
+
+.g11 img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.g33 {
+   position:absolute;
+  left: 40%;
+  width: 180px;
+  top: 40%;
+}
+
+
+
+.g33 img {
+  width: 100%;
+  height: auto;
+}
+
+.g44 {
+ position:absolute;
+  left: 55%;
+  width: 180px;
+  top: 40%;
+}
+
+
+
+.g44 img {
+  width: 100%;
+  height: auto;
+}
+.g55 {
+   position:absolute;
+  left: 70%;
+  width: 180px;
+  top: 40%;
+}
+
+
+
+.g55 img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
